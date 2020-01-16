@@ -1,0 +1,922 @@
+1575948274361	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileWT50zy"
+1575948275474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575948275474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575948275475	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575948275475	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575948278057	Marionette	INFO	Listening on port 2275
+1575948278263	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 678"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:678:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2033:69
+addAllSources@resource://devtools/server/actors/thread.js:1334:14
+onSources@resource://devtools/server/actors/thread.js:1340:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 678, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 678: NS_ERROR_FAILURE: Failed to open input source 'file:///'
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 678"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:678:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2033:69
+addAllSources@resource://devtools/server/actors/thread.js:1334:14
+onSources@resource://devtools/server/actors/thread.js:1340:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 678, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 678: NS_ERROR_FAILURE: Failed to open input source 'file:///'
+[Child 1640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1575949421333	Marionette	INFO	Stopped listening on port 2275
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+d extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575949218033	Marionette	INFO	Listening on port 2532
+1575949218512	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+[Child 9896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9896, Chrome_C[Parent 5564, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7292, Chrome_C1575949492851	Marionette	INFO	Stopped listening on port 2532
+[GPU 1
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+2576, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575949262770	Marionette	INFO	Listening on port 2595
+1575949263236	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+1575949384635	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileRh4L5y"
+1575949385343	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575949385343	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575949385343	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575949385343	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575949387528	Marionette	INFO	Listening on port 2672
+1575949387930	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+1575949418451	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileJ8vH3X"
+1575949419133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575949419133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575949419133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575949419133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Child 11128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11[Child 11676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11676, Chrome_ChildThread] WARNING: pipe error1575949421757	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+addToDatabase@XPIDatabase.jsm:2208:12
+install@XPIInstall.jsm:4342:27
+_activateAddon@XPIInstall.jsm:4369:7
+1575949421758	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+addToDatabase@XPIDatabase.jsm:2211:10
+install@XPIInstall.jsm:4342:27
+_activateAddon@XPIInstall.jsm:4369:7
+1575949421772	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+addToDatabase@XPIDatabase.jsm:2208:12
+install@XPIInstall.jsm:4342:27
+_activateAddon@XPIInstall.jsm:4369:7
+1575949421772	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+addToDatabase@XPIDatabase.jsm:2211:10
+install@XPIInstall.jsm:4342:27
+_activateAddon@XPIInstall.jsm:4369:7
+1575949421903	Marionette	INFO	Listening on port 2734
+[Child 8108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/bconsole.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 683))
+1575949422895	Marionette	INFO	Stopped listening on port 2734
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1575949450313	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilelw5oca"
+1575949451005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575949451005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575949451005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575949451006	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575949452957	Marionette	INFO	Listening on port 2777
+1575949453105	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+1575949488215	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileNozB1B"
+1575949488919	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575949488919	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575949488919	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575949488919	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575949491056	Marionette	INFO	Listening on port 2835
+1575949491506	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+1575949553074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilefz76Cl"
+1575949553773	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575949553773	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575949553774	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575949553774	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575949555740	Marionette	INFO	Listening on port 2897
+1575949555838	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+1575949716040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileZDQZqU"
+1575949716715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575949716715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575949716715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575949716715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575949718852	Marionette	INFO	Listening on port 3063
+1575949719323	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+1575950050374	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilex5QaV6"
+1575950092634	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofile8tyr3T"
+1575950093459	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575950093459	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575950093459	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575950093459	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575950095664	Marionette	INFO	Listening on port 3189
+1575950095907	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+1575950108892	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofile0nwa7o"
+1575950109636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575950109636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575950109636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575950109636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575950111787	Marionette	INFO	Listening on port 3245
+1575950112175	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+1575950236269	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofile3Wc3y6"
+1575950236983	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575950236983	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575950236983	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575950236983	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575950238994	Marionette	INFO	Listening on port 3324
+1575950239050	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+1575950322417	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofile7ie1wD"
+1575950323080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575950323080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575950323080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575950323080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575950324964	Marionette	INFO	Listening on port 3379
+1575950325201	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+1575950392641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileaTNPa1"
+1575950393294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575950393294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575950393294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575950393294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575950395176	Marionette	INFO	Listening on port 3480
+1575950395423	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+1575950490481	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileLUfg4j"
+1575950491134	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575950491134	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575950491134	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575950491134	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575950493119	Marionette	INFO	Listening on port 3535
+1575950493247	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+1575950786747	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileF0dIbl"
+1575950787475	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575950787475	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575950787476	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575950787476	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575950789423	Marionette	INFO	Listening on port 3589
+1575950789527	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+[Child 9384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 34[Child 7468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7468, Chrome_Ch[Parent 10604, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1575951157690	Marionette	INFO	Stopped listening on port 3589
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+1575950941211	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileYYxTPH"
+1575950941895	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575950941895	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575950941895	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575950941895	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1575950943599	Marionette	INFO	Listening on port 3696
+1575950944000	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+[Child 12384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12384, Chrome_Child[Parent 2760, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1575951158843	Marionette	INFO	Stopped listening on port 3696
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 1416, Chrome
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1576078893188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofile4tnhTG"
+1576078894244	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576078894244	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576078894244	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576078894244	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576078896638	Marionette	INFO	Listening on port 3110
+1576078897063	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+[Parent 5504, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11900, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrom[Child 82e8, Chro/me_CchioldThread] WARNImNG: pmipe erroorn:/ipc_channe 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341l
+_win.cc, line 341[Ch
+ild 828, [Child Chrome_ChildThr1576079104468	Marionette	INFO	Stopped listening on port 3110
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 7232, Chrome_ChildT
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1576079623666	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilejeZ9qT"
+1576079624542	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576079624542	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576079624542	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576079624542	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576079626616	Marionette	INFO	Listening on port 3485
+1576079626935	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cs.nankai.edu.cn/szll/jslb.htm, line 20: ReferenceError: _$mU is not defined
+1576079769971	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofile6kQzRV"
+1576079770804	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576079770804	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576079770804	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576079770804	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576079773000	Marionette	INFO	Listening on port 3678
+1576079773289	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cs.nankai.edu.cn/szll/jslb.htm, line 20: ReferenceError: _$mU is not defined
+1576080152759	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilegHSWya"
+1576080153464	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576080153464	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576080153465	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576080153465	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576080155529	Marionette	INFO	Listening on port 4054
+1576080156005	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cs.nankai.edu.cn/szll/jslb.htm, line 20: ReferenceError: _$mU is not defined
+1576080244167	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofile7R3jZc"
+1576080244851	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576080244851	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576080244851	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576080244851	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576080246900	Marionette	INFO	Listening on port 4235
+1576080247405	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cs.nankai.edu.cn/szll/jslb.htm, line 20: ReferenceError: _$mU is not defined
+1576080833314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilelLe4vQ"
+1576080833995	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576080833995	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576080833995	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576080833995	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576080836049	Marionette	INFO	Listening on port 4795
+1576080836556	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cs.nankai.edu.cn/szll/jslb.htm, line 20: ReferenceError: _$mU is not defined
+1576080950322	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileI1gstx"
+1576080951335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576080951335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576080951335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576080951335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576080953499	Marionette	INFO	Listening on port 4966
+1576080953597	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cs.nankai.edu.cn/szll/jslb.htm, line 20: ReferenceError: _$mU is not defined
+1576081017965	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileE2ZJ41"
+1576081018711	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576081018711	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576081018711	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576081018711	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576081020759	Marionette	INFO	Listening on port 5097
+1576081021226	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cs.nankai.edu.cn/szll/jslb.htm, line 20: ReferenceError: _$mU is not defined
+1576081104077	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileHJL1VP"
+1576081104837	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576081104837	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576081104837	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576081104837	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576081106826	Marionette	INFO	Listening on port 5253
+1576081106847	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cs.nankai.edu.cn/szll/jslb.htm, line 20: ReferenceError: _$mU is not defined
+1576081610864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileWw14wn"
+1576081611591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576081611591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576081611592	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576081611592	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576081613719	Marionette	INFO	Listening on port 5974
+1576081614121	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cs.nankai.edu.cn/szll/jslb.htm, line 20: ReferenceError: _$mU is not defined
+[Child 15836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15836, Chrome_ChildThread] WARNING: [Parent 9972, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12080, Chrome_ChildThread][Parent 9972, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1576081721820	Marionette	INFO	Stopped listening on port 5974
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 7516, Chrome_
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1576081863287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofile2nqM1W"
+1576081864001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576081864001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576081864001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576081864002	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576081866543	Marionette	INFO	Listening on port 6405
+1576081866609	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cs.nankai.edu.cn/szll/jslb.htm, line 20: ReferenceError: _$mU is not defined
+1576109488090	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilefNrBJ5"
+1576109489041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576109489041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576109489041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576109489041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576109491478	Marionette	INFO	Listening on port 2022
+1576109491967	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+JavaScript error: https://cc.nankai.edu.cn/_upload/tpl/01/bf/447/template447/htmlRes/jquery.pjax.js, line 888: TypeError: $.event.addProp is not a function
+1576109785665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileBQc7Tj"
+1576109787080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576109787080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576109787080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576109787080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576109789586	Marionette	INFO	Listening on port 2343
+1576109790085	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cs.nankai.edu.cn/szll/jslb.htm, line 20: ReferenceError: _$mU is not defined
+1576110032312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofile9wYjU5"
+1576110033349	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576110033350	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576110033350	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576110033350	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576110036032	Marionette	INFO	Listening on port 3019
+1576110036179	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cs.nankai.edu.cn/szll/jslb.htm, line 20: ReferenceError: _$mU is not defined
+1576110335991	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofile0iJBVJ"
+1576110337207	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576110337207	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576110337207	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576110337207	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576110339631	Marionette	INFO	Listening on port 3443
+1576110339887	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cs.nankai.edu.cn/szll/jslb.htm, line 20: ReferenceError: _$mU is not defined
+1576110743141	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilee2Ysrd"
+1576110744252	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576110744252	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576110744252	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576110744252	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576110746806	Marionette	INFO	Listening on port 3698
+1576110747047	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576110935067	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofile536Oy4"
+1576110936758	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576110936758	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576110936758	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576110936758	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576110939266	Marionette	INFO	Listening on port 3814
+1576110939511	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576110976007	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofile6I9eZ4"
+1576110977269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576110977269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576110977269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576110977269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576110979708	Marionette	INFO	Listening on port 3905
+1576110979902	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576111006409	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilewfkFgB"
+1576111007654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576111007654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576111007654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576111007655	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576111010202	Marionette	INFO	Listening on port 3969
+1576111010309	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576111036723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileW4CwPi"
+1576111037999	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576111037999	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576111037999	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576111037999	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576111040509	Marionette	INFO	Listening on port 4036
+1576111040631	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576111071980	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofile14AYfa"
+1576111073304	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576111073304	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576111073305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576111073305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576111092167	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileTm04Wm"
+1576111093640	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576111093641	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576111093641	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576111093641	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576111096550	Marionette	INFO	Listening on port 4127
+1576111096586	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576111119789	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileV4RHcS"
+1576111121333	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576111121334	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576111121334	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576111121334	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576111123673	Marionette	INFO	Listening on port 4230
+1576111124180	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576111168208	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilez8jduA"
+1576111169784	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576111169784	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576111169785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576111169785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576111172353	Marionette	INFO	Listening on port 4304
+1576111172625	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576111641143	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilea4AM11"
+1576111642495	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576111642495	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576111642495	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576111642495	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576111644865	Marionette	INFO	Listening on port 4425
+1576111645087	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: resource:///modules/BrowserContentHandler.jsm, line 356: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowWatcher.openWindow]
+1576111809885	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileb07E40"
+1576111811214	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576111811214	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576111811214	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576111811214	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576111813741	Marionette	INFO	Listening on port 4499
+1576111813796	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: resource:///modules/BrowserContentHandler.jsm, line 356: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowWatcher.openWindow]
+1576111971549	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileYLW1pH"
+1576111972625	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576111972625	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576111972626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576111972626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576111975370	Marionette	INFO	Listening on port 4565
+1576111975428	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+[Parent 3716, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 3716, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15601576111988926	Marionette	INFO	Stopped listening on port 4565
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1576111997387	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilesxSKnU"
+1576111999080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576111999080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576111999080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576111999080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576112001874	Marionette	INFO	Listening on port 4617
+1576112001970	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576112038337	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileMmybxH"
+1576112039573	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576112039573	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576112039574	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576112039574	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576112042271	Marionette	INFO	Listening on port 4662
+1576112042765	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+[Child 12828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6148, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1576113748417	Marionette	INFO	Stopped listening on port 4662
+[G
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+PU 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rce://pdf.js/
+1576112063704	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576112066385	Marionette	INFO	Listening on port 4714
+1576112066882	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576112218461	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileiuTUII"
+1576112219855	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576112219855	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576112219855	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576112219855	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576112222378	Marionette	INFO	Listening on port 4768
+1576112222879	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576112248053	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilebiJ7W0"
+1576112249141	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576112249142	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576112249142	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576112249142	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576112252142	Marionette	INFO	Listening on port 4818
+1576112252508	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576112321055	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilenESLcE"
+1576112322483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576112322483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576112322484	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576112322484	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576112325314	Marionette	INFO	Listening on port 4866
+1576112325481	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576112409232	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileHbl1HA"
+1576112410765	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576112410765	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576112410765	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576112410765	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576112413386	Marionette	INFO	Listening on port 4919
+1576112413711	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+[Parent 2484, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2948, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2948, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_157[Child 7824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 2484, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1576113776557	Marionette	INFO	Stopped listening on port 4919
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 6976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+or: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576112726418	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilezCk6yT"
+1576112727663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576112727663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576112727664	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576112727664	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576112730232	Marionette	INFO	Listening on port 5028
+1576112730320	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+[Parent 2276, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 69[Child 4076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common1576113751724	Marionette	INFO	Stopped listening on port 5028
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 4156, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+[Child 12764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1576113752729	Marionette	INFO	Stopped listening on port 5081
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 12700, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576112864036	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576112866658	Marionette	INFO	Listening on port 5136
+1576112866762	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576113017259	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileydaIhK"
+1576113018595	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576113018596	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576113018596	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576113018596	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576113020886	Marionette	INFO	Listening on port 5196
+1576113021151	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+[Child 12948, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12948, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1576113753416	Marionette	INFO	Stopped listening on port 5196
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 10700, Chrome_ChildThr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+on.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576113263558	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576113266137	Marionette	INFO	Listening on port 5269
+1576113266246	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576113663093	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilew2Pg1y"
+1576113664870	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576113664871	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576113664871	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576113664871	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576113667638	Marionette	INFO	Listening on port 5339
+1576113667669	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576114142754	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileiOgdeP"
+1576114144587	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576114144587	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576114144588	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576114144588	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576114147310	Marionette	INFO	Listening on port 5462
+1576114147843	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+1576114591448	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileb29Pvw"
+1576114592954	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576114592955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576114592955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576114592955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576114595412	Marionette	INFO	Listening on port 5576
+1576114595957	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1845: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 10640, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task1576115690325	Marionette	INFO	Stopped listening on port 5576
+[GPU 10172, Ch
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+st: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576114816793	Marionette	INFO	Listening on port 5654
+1576114817051	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+[Child 12572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8151576115689995	Marionette	INFO	Stopped listening on port 5654
+[GPU 12796
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+g	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Child 6024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1576115104030	Marionette	INFO	Listening on port 5723
+1576115104425	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Child 8496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript error: resource:///modules/ContentMetaHandler.jsm, line 162: NS_ERROR_NOT_INITIALIZED: 
+[Child 9532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1576115234905	Marionette	INFO	Stopped listening on port 5723
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 12276, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1576115391302	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileXAMJl5"
+1576115397742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576115397743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576115397744	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576115397745	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576115430044	Marionette	INFO	Listening on port 5865
+1576115430457	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+[Parent 12268, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 65JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+JavaScript error: https://ai.nankai.edu.cn/dfiles/12681/js/slider.js, line 106: TypeError: document.getElementById(...) is null
+[Parent 12268, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12268, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 1576115616190	Marionette	INFO	Stopped listening on port 5865
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1576129847811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileesde1m"
+1576129848862	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576129848863	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576129848863	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576129848863	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576129851112	Marionette	INFO	Listening on port 3478
+1576129851205	Marionette	WARN	TLS certificate errors will be ignored for this session
+1576129942629	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileysDl4h"
+1576129943314	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576129943314	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576129943314	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576129943314	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1576129945380	Marionette	INFO	Listening on port 3536
+1576129945393	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://finance.nankai.edu.cn/static/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://finance.nankai.edu.cn/static/jquery/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://finance.nankai.edu.cn/static/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://finance.nankai.edu.cn/static/jquery/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://finance.nankai.edu.cn/static/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://finance.nankai.edu.cn/static/jquery/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://finance.nankai.edu.cn/static/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://finance.nankai.edu.cn/static/jquery/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 9328, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9328, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9204, Chrome_ChildThread] WARNING: pipe e[Parent 9328, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1576130175224	Marionette	INFO	Stopped listening on port 3536
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

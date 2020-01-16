@@ -1,0 +1,63 @@
+<!doctype html>
+
+<head>
+  <title>众里寻Ta</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/static/css/speech-input.css">
+  <link rel="shortcut icon" href="/static/images/icon.png">
+  </head>
+
+<style>
+
+  .styled-select select {
+   background: white;
+   width: 110px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   height: 42px;
+   float:left;
+    border-radius: 5px;
+}
+  .div-d{ float:right;}
+</style>
+
+<body>
+<header>
+  <div align="center">
+  <img src="/static/images/logo.png" width="500px" style="margin-top:100px">
+  </div>
+  <div class="search s1">
+	
+	<form action="{{ url_for('search') }}" method=post >
+	  <div class="styled-select">
+	  <select name="type">
+		<option value="href">  Website</option>
+		<option value="filetype">Filetype</option>
+		<option value="name"> Name</option>
+		<option value="e_mail"> Email</option>
+		<option value="department">Department</option>
+		<option value="category">JobTitle</option>
+		<option value="direction">Direction</option>
+		<option value="collage">Collage</option>
+	  </select>
+	  </div>
+	  <div class="div-d" >
+	  <input type="text" placeholder="Search here..." class="speech-input" name="query" required>
+	  <button type="submit"></button>
+	  </div>
+	  <div class="div-d" >
+	  <label style="font-size:12px;right: 20px;">Logic Quiry<label/>
+	  <input type="checkbox" name="check" value="1" style="zoom:40%;display:inline;" /> 
+	  </div>
+	</form>
+	
+  </div>
+</header>
+<script src="/static/scripts/speech-input.js"></script>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+
+</html>
+

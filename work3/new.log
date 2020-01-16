@@ -1,0 +1,1009 @@
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 21:54:56] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.702 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [22/Nov/2019 21:54:57] "GET /历史?target=collage&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 21:55:09] "GET /历史?target=collage&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 21:55:17] "GET /历史?target=collage&page=3 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 21:55:19] "GET /历史?target=collage&page=4 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 21:55:21] "GET /历史?target=collage&page=5 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 21:55:24] "GET /历史?target=collage&page=6 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 21:55:26] "GET /历史?target=collage&page=7 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 21:55:28] "GET /历史?target=collage&page=8 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 21:55:36] "GET /历史?target=collage&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 21:55:38] "GET /历史?target=collage&page=0 HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 22:00:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:00:37] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.724 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [22/Nov/2019 22:00:39] "GET /计算机?target=department&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:01:27] "GET /计算机?target=department&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:01:31] "GET /计算机?target=department&page=1 HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Exception on /robots.txt [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 58, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [22/Nov/2019 22:04:35] "GET /robots.txt HTTP/1.1" 500 -
+127.0.0.1 - - [22/Nov/2019 22:04:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:04:44] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.720 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [22/Nov/2019 22:04:46] "GET /人工智能?target=direction&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:04:57] "GET /人工智能?target=direction&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:05:02] "GET /人工智能?target=direction&page=3 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:05:04] "GET /人工智能?target=direction&page=4 HTTP/1.1" 200 -
+Exception on /人工智能 [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 69, in search_result
+    details.append(buffer[i].fields())  # details中的每一项是一个词典，包含一个人的除简介外的所有信息
+  File "E:\ir\work3\venv\lib\site-packages\whoosh\searching.py", line 997, in __getitem__
+    % (n, len(self.top_n)))
+IndexError: results[12]: Results only has 12 hits
+127.0.0.1 - - [22/Nov/2019 22:05:08] "GET /人工智能?target=direction&page=5 HTTP/1.1" 500 -
+Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 58, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [22/Nov/2019 22:05:08] "GET /favicon.ico HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 22:07:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:07:23] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.724 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [22/Nov/2019 22:07:24] "GET /实验?target=category&page=1 HTTP/1.1" 200 -
+Exception on /实验 [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 70, in search_result
+    details.append(buffer[i].fields())  # details中的每一项是一个词典，包含一个人的除简介外的所有信息
+  File "E:\ir\work3\venv\lib\site-packages\whoosh\searching.py", line 997, in __getitem__
+    % (n, len(self.top_n)))
+IndexError: results[14]: Results only has 14 hits
+127.0.0.1 - - [22/Nov/2019 22:07:34] "GET /实验?target=category&page=5 HTTP/1.1" 500 -
+Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 58, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [22/Nov/2019 22:07:35] "GET /favicon.ico HTTP/1.1" 500 -
+127.0.0.1 - - [22/Nov/2019 22:07:40] "GET /实验?target=category&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:07:42] "GET /实验?target=category&page=3 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:07:46] "GET /实验?target=category&page=4 HTTP/1.1" 200 -
+Exception on /实验 [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 70, in search_result
+    details.append(buffer[i].fields())  # details中的每一项是一个词典，包含一个人的除简介外的所有信息
+  File "E:\ir\work3\venv\lib\site-packages\whoosh\searching.py", line 997, in __getitem__
+    % (n, len(self.top_n)))
+IndexError: results[14]: Results only has 14 hits
+127.0.0.1 - - [22/Nov/2019 22:07:48] "GET /实验?target=category&page=5 HTTP/1.1" 500 -
+Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 58, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [22/Nov/2019 22:07:48] "GET /favicon.ico HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 22:11:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:11:18] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.714 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [22/Nov/2019 22:11:20] "GET /明明?target=name&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:11:22] "GET /明明?target=name&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:11:24] "GET /明明?target=name&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:11:34] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [22/Nov/2019 22:11:34] "GET /金融?target=collage&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:11:39] "GET /金融?target=collage&page=7 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:11:42] "GET /金融?target=collage&page=8 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:11:49] "GET /金融?target=collage&page=5 HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 22:13:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:13:26] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.736 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [22/Nov/2019 22:13:28] "GET /实验?target=category&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:13:34] "GET /实验?target=category&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:13:37] "GET /实验?target=category&page=3 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:13:42] "GET /实验?target=category&page=4 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:13:47] "GET /实验?target=category&page=5 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:13:49] "GET /实验?target=category&page=6 HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Exception on /robots.txt [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 58, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [22/Nov/2019 22:24:45] "GET /robots.txt HTTP/1.1" 500 -
+127.0.0.1 - - [22/Nov/2019 22:24:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:25:14] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.698 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [22/Nov/2019 22:25:16] "GET /明明?target=name&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:27:21] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [22/Nov/2019 22:27:21] "GET /温延龙?target=name&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:27:27] "GET /温延龙?target=name&page=2 HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 22:29:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:29:19] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.710 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [22/Nov/2019 22:29:21] "GET /温%2A龙?target=name&page=1 HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.732 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [22/Nov/2019 22:53:38] "GET /温%2A龙?target=name&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:53:39] "GET /static/images/icon.png HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 22:53:41] "GET / HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:00:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:00:50] "GET /static/images/icon.png HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:00:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:00:53] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:03:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:03:05] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:04:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:04:37] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:06:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:06:26] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:07:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:07:15] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:08:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:08:10] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:09:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:09:32] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:10:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:10:28] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:12:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:12:39] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:13:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:13:16] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:14:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:14:00] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:15:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:15:44] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:17:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:17:53] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:22:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:22:14] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:22:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:22:48] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:23:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:23:33] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:23:33] "GET /static/css/speech-input.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:23:33] "GET /static/images/logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:23:33] "GET /static/scripts/speech-input.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:23:34] "GET /static/images/icon.png HTTP/1.1" 200 -
+Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 58, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [22/Nov/2019 23:24:02] "GET /favicon.ico HTTP/1.1" 500 -
+127.0.0.1 - - [22/Nov/2019 23:24:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:24:03] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:24:03] "GET /static/css/speech-input.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:24:03] "GET /static/scripts/speech-input.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:24:03] "GET /static/images/logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:24:07] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:25:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:25:34] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:26:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:26:13] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Nov/2019 23:28:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2019 23:28:14] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 08:43:31] "GET / HTTP/1.1" 200 -
+Exception on /robots.txt [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 60, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [23/Nov/2019 08:43:31] "GET /robots.txt HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 08:49:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 08:49:04] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 08:51:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 08:51:23] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 08:58:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 08:58:03] "GET /static/images/icon.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 08:58:20] "POST / HTTP/1.1" 302 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 08:59:43] "POST /何青?target=name&isLogic=1&page=1 HTTP/1.1" 405 -
+Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 60, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [23/Nov/2019 08:59:44] "GET /favicon.ico HTTP/1.1" 500 -
+127.0.0.1 - - [23/Nov/2019 08:59:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:00:06] "POST / HTTP/1.1" 400 -
+Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 60, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [23/Nov/2019 09:00:06] "GET /favicon.ico HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:01:22] "POST / HTTP/1.1" 400 -
+Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 60, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [23/Nov/2019 09:01:22] "GET /favicon.ico HTTP/1.1" 500 -
+127.0.0.1 - - [23/Nov/2019 09:01:33] "POST / HTTP/1.1" 400 -
+Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 60, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [23/Nov/2019 09:01:33] "GET /favicon.ico HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:01:51] "POST / HTTP/1.1" 400 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:03:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:03:23] "GET /static/images/icon.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:03:48] "POST / HTTP/1.1" 400 -
+127.0.0.1 - - [23/Nov/2019 09:03:57] "GET /favicon.ico HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:11:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:11:10] "GET /static/images/icon.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:11:21] "POST / HTTP/1.1" 400 -
+Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 59, in search_result
+    with open("/static/images/icon.png", 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/static/images/icon.png'
+127.0.0.1 - - [23/Nov/2019 09:11:21] "GET /favicon.ico HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:11:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:11:38] "GET /static/images/icon.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:11:46] "POST / HTTP/1.1" 400 -
+127.0.0.1 - - [23/Nov/2019 09:11:56] "POST / HTTP/1.1" 400 -
+127.0.0.1 - - [23/Nov/2019 09:12:05] "POST / HTTP/1.1" 400 -
+127.0.0.1 - - [23/Nov/2019 09:12:27] "POST / HTTP/1.1" 400 -
+127.0.0.1 - - [23/Nov/2019 09:12:50] "POST / HTTP/1.1" 400 -
+127.0.0.1 - - [23/Nov/2019 09:12:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:12:56] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:12:56] "GET /static/images/logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:12:56] "GET /static/css/speech-input.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:12:56] "GET /static/scripts/speech-input.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:12:57] "GET /static/images/icon.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:13:02] "POST / HTTP/1.1" 400 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:13:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:13:51] "POST / HTTP/1.1" 400 -
+Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 62, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [23/Nov/2019 09:13:51] "GET /favicon.ico HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:15:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:15:26] "POST / HTTP/1.1" 400 -
+Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 62, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [23/Nov/2019 09:15:26] "GET /favicon.ico HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:16:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:16:59] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.742 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [23/Nov/2019 09:17:02] "GET /何青?target=name&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:17:02] "GET /static/css/style_alt.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:17:03] "GET /static/images/bg.jpg HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:22:13] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.783 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [23/Nov/2019 09:22:15] "GET /何青?target=name&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:22:28] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [23/Nov/2019 09:22:28] "GET /favicon.ico?target=filetype&isLogic=0&page=1 HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:23:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:23:08] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.731 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [23/Nov/2019 09:23:10] "GET /何青?target=name&isLogic=0&page=1 HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.739 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [23/Nov/2019 09:24:09] "GET /何青?target=name&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:24:09] "GET /static/images/icon.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:24:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:24:23] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [23/Nov/2019 09:24:23] "GET /何青?target=name&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:24:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:24:40] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:24:40] "GET /static/css/speech-input.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:24:40] "GET /static/images/logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:24:40] "GET /static/scripts/speech-input.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:24:45] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [23/Nov/2019 09:24:45] "GET /程明明?target=name&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:24:45] "GET /static/css/style_alt.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:24:46] "GET /static/images/bg.jpg HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:26:38] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.748 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [23/Nov/2019 09:26:40] "GET /程明明?target=name&isLogic=0&page=1 HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:28:11] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.725 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [23/Nov/2019 09:28:13] "GET /程明明?target=name&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:28:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:28:28] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:28:28] "GET /static/css/speech-input.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:28:28] "GET /static/images/logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:28:28] "GET /static/scripts/speech-input.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:28:41] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [23/Nov/2019 09:28:41] "GET /教授?target=category&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:28:41] "GET /static/css/style_alt.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:28:41] "GET /static/images/bg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:29:39] "GET /教授?target=category&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:29:39] "GET /static/images/icon.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:29:49] "GET /教授?target=category&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:29:49] "GET /static/css/style_alt.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:29:49] "GET /static/css/speech-input.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:29:49] "GET /static/scripts/speech-input.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:29:51] "GET /static/images/bg.jpg HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.737 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [23/Nov/2019 09:34:24] "GET /教授?target=category&isLogic=0&page=1 HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:38:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:38:32] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:38:32] "GET /static/images/logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:38:37] "POST / HTTP/1.1" 302 -
+Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 61, in search_result
+    with open("/static/images/icon.png", 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/static/images/icon.png'
+127.0.0.1 - - [23/Nov/2019 09:38:37] "GET /favicon.ico?target=filetype&isLogic=0&page=1 HTTP/1.1" 500 -
+Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 61, in search_result
+    with open("/static/images/icon.png", 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/static/images/icon.png'
+127.0.0.1 - - [23/Nov/2019 09:38:37] "GET /favicon.ico HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:39:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:39:07] "POST / HTTP/1.1" 302 -
+Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 61, in search_result
+    with open("/static/images/icon.png", 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/static/images/icon.png'
+127.0.0.1 - - [23/Nov/2019 09:39:07] "GET /favicon.ico?target=filetype&isLogic=0&page=1 HTTP/1.1" 500 -
+Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 61, in search_result
+    with open("/static/images/icon.png", 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/static/images/icon.png'
+127.0.0.1 - - [23/Nov/2019 09:39:07] "GET /favicon.ico HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:39:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:39:32] "POST / HTTP/1.1" 302 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 09:40:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:40:21] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [23/Nov/2019 09:40:50] "GET /favicon.ico?target=href&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 09:41:04] "GET / HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 10:02:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 10:02:37] "GET /static/images/icon.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 10:02:53] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.791 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [23/Nov/2019 10:02:55] "GET /计算机%20人工智能?target=direction&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 10:03:01] "GET /计算机%20人工智能?target=direction&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 10:03:50] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [23/Nov/2019 10:03:50] "GET /计算机or人工智能?target=direction&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 10:03:54] "GET /计算机or人工智能?target=direction&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 10:04:01] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [23/Nov/2019 10:04:01] "GET /计算机or历史?target=href&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 10:04:09] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [23/Nov/2019 10:04:09] "GET /计算机or历史?target=direction&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 10:04:11] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [23/Nov/2019 10:04:11] "GET /计算机or历史?target=href&isLogic=0&page=1 HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 10:06:27] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.752 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [23/Nov/2019 10:06:29] "GET /历史?target=direction&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 10:06:40] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [23/Nov/2019 10:06:40] "GET /历史or计算机?target=href&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 10:06:48] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [23/Nov/2019 10:06:48] "GET /历史and计算机?target=href&isLogic=0&page=1 HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 10:08:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 10:08:55] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.803 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [23/Nov/2019 10:08:57] "GET /历史OR计算机?target=direction&isLogic=1&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 10:09:02] "GET /历史OR计算机?target=direction&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 10:09:10] "GET /历史OR计算机?target=direction&page=3 HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 17:40:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 17:40:37] "GET /static/images/icon.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 17:41:13] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 2.373 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [23/Nov/2019 17:41:20] "GET /历史?target=collage&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 17:44:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 17:44:42] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Nov/2019 17:44:42] "GET /static/css/speech-input.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Nov/2019 17:44:42] "GET /static/scripts/speech-input.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Nov/2019 17:44:42] "GET /static/images/logo.png HTTP/1.1" 304 -
+Exception on /robots.txt [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 64, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [23/Nov/2019 17:46:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 17:46:34] "GET /robots.txt HTTP/1.1" 500 -
+127.0.0.1 - - [23/Nov/2019 17:47:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 17:47:27] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 17:47:27] "GET /static/css/speech-input.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 17:47:27] "GET /static/images/logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 17:47:27] "GET /static/scripts/speech-input.js HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Nov/2019 22:16:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 22:16:46] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Nov/2019 22:16:46] "GET /static/css/speech-input.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Nov/2019 22:16:46] "GET /static/scripts/speech-input.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Nov/2019 22:16:46] "GET /static/images/logo.png HTTP/1.1" 304 -
+127.0.0.1 - - [23/Nov/2019 22:17:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 22:17:58] "GET /static/images/icon.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 22:22:35] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 2.226 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [23/Nov/2019 22:22:46] "GET /历史?target=collage&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 22:22:46] "GET /static/css/style_alt.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Nov/2019 22:22:46] "GET /static/images/bg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Nov/2019 22:23:15] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [23/Nov/2019 22:23:15] "GET /历史?target=name&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2019 22:23:26] "GET / HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Exception on /robots.txt [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 67, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [24/Nov/2019 14:55:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2019 14:55:15] "GET /robots.txt HTTP/1.1" 500 -
+127.0.0.1 - - [24/Nov/2019 14:55:15] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2019 14:55:15] "GET /static/css/speech-input.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2019 14:55:15] "GET /static/scripts/speech-input.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2019 14:55:15] "GET /static/images/logo.png HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2019 14:57:22] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.768 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [24/Nov/2019 14:57:25] "GET /人工智能?target=direction&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2019 14:57:25] "GET /static/css/style_alt.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2019 14:57:26] "GET /static/images/bg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2019 14:58:47] "GET /人工智能?target=direction&page=2 HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [24/Nov/2019 15:04:30] "GET / HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Exception on /robots.txt [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 74, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [26/Nov/2019 09:53:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 09:53:14] "GET /robots.txt HTTP/1.1" 500 -
+127.0.0.1 - - [26/Nov/2019 09:53:14] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Nov/2019 09:53:14] "GET /static/css/speech-input.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Nov/2019 09:53:14] "GET /static/images/logo.png HTTP/1.1" 304 -
+127.0.0.1 - - [26/Nov/2019 09:53:14] "GET /static/scripts/speech-input.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Nov/2019 09:59:21] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 0.759 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [26/Nov/2019 09:59:24] "GET /明明?target=name&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 09:59:24] "GET /static/css/style_alt.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Nov/2019 09:59:24] "GET /static/images/bg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [26/Nov/2019 10:00:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:00:35] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [26/Nov/2019 10:00:35] "GET /人工智能%20计算机?target=direction&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:01:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:02:03] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [26/Nov/2019 10:02:03] "GET /历史OR计算机?target=collage&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:02:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:02:09] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [26/Nov/2019 10:02:09] "GET /历史OR计算机?target=collage&isLogic=1&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:02:15] "GET /历史OR计算机?target=collage&page=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:02:20] "GET /历史OR计算机?target=collage&page=3 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:02:25] "GET /历史OR计算机?target=collage&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:02:28] "GET /历史OR计算机?target=collage&page=5 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:02:30] "GET /历史OR计算机?target=collage&page=6 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:02:32] "GET /历史OR计算机?target=collage&page=7 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:02:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:03:00] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [26/Nov/2019 10:03:00] "GET /计算机OR历史?target=collage&isLogic=1&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:03:04] "GET /计算机OR历史?target=collage&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:03:07] "GET /计算机OR历史?target=collage&page=3 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:03:10] "GET /计算机OR历史?target=collage&page=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:03:12] "GET /计算机OR历史?target=collage&page=5 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:03:15] "GET /计算机OR历史?target=collage&page=6 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:03:18] "GET /计算机OR历史?target=collage&page=5 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:03:22] "GET /计算机OR历史?target=collage&page=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:04:05] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [26/Nov/2019 10:04:05] "GET /王二?target=name&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:04:47] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [26/Nov/2019 10:04:47] "GET /何青?target=name&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:06:34] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [26/Nov/2019 10:06:34] "GET /favicon.ico?target=filetype&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:06:34] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:06:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:07:09] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [26/Nov/2019 10:07:09] "GET /实验?target=category&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:07:19] "GET /实验?target=category&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:07:25] "GET /实验?target=category&page=3 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:07:28] "GET /实验?target=category&page=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:07:32] "GET /实验?target=category&page=5 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2019 10:07:42] "GET /实验?target=category&page=1 HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Exception on /robots.txt [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 74, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [29/Nov/2019 11:58:42] "GET /robots.txt HTTP/1.1" 500 -
+127.0.0.1 - - [29/Nov/2019 11:58:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 11:58:42] "GET /static/scripts/speech-input.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2019 11:58:43] "GET /static/images/logo.png HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2019 11:58:43] "GET /static/css/speech-input.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2019 11:58:43] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2019 11:59:45] "POST / HTTP/1.1" 302 -
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\asus\AppData\Local\Temp\jieba.cache
+Loading model cost 2.355 seconds.
+Prefix dict has been built succesfully.
+127.0.0.1 - - [29/Nov/2019 11:59:52] "GET /程明明?target=name&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 11:59:52] "GET /static/css/style_alt.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2019 11:59:53] "GET /static/images/bg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2019 12:00:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:09:53] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2019 12:09:54] "GET /favicon.ico?target=filetype&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:09:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:10:21] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2019 12:10:21] "GET /实验?target=category&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:10:30] "GET /实验?target=category&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:10:46] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2019 12:10:46] "GET /计算机%20人工智能?target=direction&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:10:48] "GET /计算机%20人工智能?target=direction&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:13:21] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2019 12:13:21] "GET /明明?target=name&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:18:12] "GET /实验?target=category&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:18:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:18:55] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2019 12:18:55] "GET /历史OR计算机?target=collage&isLogic=0&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:18:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:19:07] "POST / HTTP/1.1" 302 -
+Exception on /计算机 [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 103, in search_result
+    buffer = searcher.search(q, limit=20)
+UnboundLocalError: local variable 'q' referenced before assignment
+127.0.0.1 - - [29/Nov/2019 12:19:07] "GET /计算机?target=collage&isLogic=1&page=1 HTTP/1.1" 500 -
+127.0.0.1 - - [29/Nov/2019 12:19:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:19:23] "POST / HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2019 12:19:23] "GET /计算机OR历史?target=collage&isLogic=1&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:19:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:20:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2019 12:20:24] "GET /static/images/icon.png HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Exception on /robots.txt [GET]
+Traceback (most recent call last):
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\ir\work3\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\ir\work3\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:/ir/work3/webQuery.py", line 74, in search_result
+    page = int(request.args.get('page'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+127.0.0.1 - - [11/Dec/2019 23:16:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2019 23:16:41] "GET /robots.txt HTTP/1.1" 500 -
+127.0.0.1 - - [11/Dec/2019 23:16:41] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2019 23:16:41] "GET /static/css/speech-input.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2019 23:16:42] "GET /static/scripts/speech-input.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2019 23:16:42] "GET /static/images/logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2019 23:16:47] "GET /static/images/icon.png HTTP/1.1" 200 -
